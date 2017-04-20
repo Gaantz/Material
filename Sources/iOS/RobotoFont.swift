@@ -67,9 +67,9 @@ public struct RobotoFont: FontType {
      - Returns: A UIFont.
      */
     public static func thin(with size: CGFloat) -> UIFont {
-        Font.loadFontIfNeeded(name: "Roboto-Thin")
+        Font.loadFontIfNeeded(name: "SanFranciscoDisplay-Thin")
 		
-        if let f = UIFont(name: "Roboto-Thin", size: size) {
+        if let f = UIFont(name: "SanFranciscoDisplay-Thin", size: size) {
 			return f
 		}
 		
@@ -82,9 +82,9 @@ public struct RobotoFont: FontType {
      - Returns: A UIFont.
      */
     public static func light(with size: CGFloat) -> UIFont {
-        Font.loadFontIfNeeded(name: "Roboto-Light")
+        Font.loadFontIfNeeded(name: "SanFranciscoDisplay-Light")
 		
-        if let f = UIFont(name: "Roboto-Light", size: size) {
+        if let f = UIFont(name: "SanFranciscoDisplay-Light", size: size) {
 			return f
 		}
 		
@@ -97,9 +97,9 @@ public struct RobotoFont: FontType {
      - Returns: A UIFont.
      */
     public static func regular(with size: CGFloat) -> UIFont {
-        Font.loadFontIfNeeded(name: "Roboto-Regular")
+        Font.loadFontIfNeeded(name: "SanFranciscoDisplay-Regular")
 		
-        if let f = UIFont(name: "Roboto-Regular", size: size) {
+        if let f = UIFont(name: "SanFranciscoDisplay-Regular", size: size) {
 			return f
 		}
 		
@@ -112,9 +112,9 @@ public struct RobotoFont: FontType {
      - Returns: A UIFont.
      */
     public static func medium(with size: CGFloat) -> UIFont {
-		Font.loadFontIfNeeded(name: "Roboto-Medium")
+		Font.loadFontIfNeeded(name: "SanFranciscoDisplay-Medium")
 		
-        if let f = UIFont(name: "Roboto-Medium", size: size) {
+        if let f = UIFont(name: "SanFranciscoDisplay-Medium", size: size) {
 			return f
 		}
 		
@@ -127,9 +127,9 @@ public struct RobotoFont: FontType {
      - Returns: A UIFont.
      */
     public static func bold(with size: CGFloat) -> UIFont {
-        Font.loadFontIfNeeded(name: "Roboto-Bold")
+        Font.loadFontIfNeeded(name: "SanFranciscoDisplay-Bold")
 		
-        if let f = UIFont(name: "Roboto-Bold", size: size) {
+        if let f = UIFont(name: "SanFranciscoDisplay-Bold", size: size) {
 			return f
 		}
 		
